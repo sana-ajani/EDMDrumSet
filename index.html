@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title> JavaScript Drum Set </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+    $(function(){
+    	$("input").bind("keydown", function(e){
+        	$("div").html("Key: " + e.which);
+            var code = e.which;
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="keys">
+        <!--Data attribute of keycode associated with each keyboard button-->
+        <div data-key="65" class="key">
+            <!--Keyboard Input Element-->
+            <kbd>A</kbd>
+            <span class="sound">Clap</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Crash</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Hihat</span>
+        </div>
+
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Snare</span>
+        </div>
+
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Kick 1</span>
+        </div>
+
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Kick 2</span>
+        </div>
+
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Repeated Kick</span>
+        </div>
+
+        <div data-key="186" class="key">
+            <kbd>;</kbd>
+            <span class="sound">Tom</span>
+        </div>
+
+        <div data-key="32" class="key">
+            <kbd>SPACE</kbd>
+            <span class="sound">Intro</span>
+        </div>
+
+        <div data-key="38" class="key">
+            <kbd>UP</kbd>
+            <span class="sound">Beep</span>
+        </div>
+
+        <div data-key="40" class="key">
+            <kbd>DOWN</kbd>
+            <span class="sound">Boop</span>
+        </div>
+
+        <div data-key="37" class="key">
+            <kbd>LEFT</kbd>
+            <span class="sound">Coolio</span>
+        </div>
+
+        <div data-key="39" class="key">
+            <kbd>RIGHT</kbd>
+            <span class="sound">Rad</span>
+        </div>
+    </div>
+
+</body>
+</html>
