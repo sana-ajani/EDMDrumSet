@@ -5,8 +5,8 @@ A collection of elements that represent keys on the keyboard, and the sound that
 
 What I learned:
 
--CSS transitions allow you to smoothly control when the animation happens. I used an individual "transitionend" event handler for each <div> element instead of using a SetTimeout function in the HTML
+-CSS transitions allow you to smoothly control when the animation happens. I used an individual "transitionend" event handler for each div element instead of using a SetTimeout function in the HTML
 
--<audio> tag! Pretty basic, but beyond just playing the sound, you can make it a bit more complex with loading and pausing functionality 
+-Audio tag! Pretty basic, but beyond just playing the sound, you can make it a bit more complex with loading and pausing functionality 
 
 ---Sounds used from ProducerSpot.com---
