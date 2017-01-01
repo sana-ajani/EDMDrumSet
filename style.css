@@ -19,8 +19,22 @@ html {
   margin:4rem;
   font-size: 0.3rem;
   padding:2rem 3rem;
-  transition:all .07s;
+  transition:all .1s ease;
   width:70px;
+  text-align: center;
+  color:white;
+  background-color: rgba(41, 70, 115, 0.5);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 12px 12px rgba(0,0,0,0.40);
+}
+
+.key-space {
+  border:3.5px solid black;
+  border-radius:2px;
+  margin:4rem;
+  font-size: 0.3rem;
+  padding:2rem 3rem;
+  transition:all .1s;
+  width:350px;
   text-align: center;
   color:white;
   background-color: rgba(41, 70, 115, 0.5);
@@ -28,9 +42,9 @@ html {
 }
 
 .playing {
-  transform:scale(1.1);
-  border-color:#ffc600;
-  box-shadow: 0 0 10px #ffc600;
+  transform: translate(5px, -3px);
+  border-color: #ff33d6;
+  box-shadow: 0 0 20px #ffccf5;
 }
 
 kbd {
